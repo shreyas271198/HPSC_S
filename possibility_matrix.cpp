@@ -45,8 +45,8 @@ for(int i=0;i<N;i++){               //row and column check
 	cv.clear();
 	}
 
-for(int br=0;br<N;br+=3){                   //box check
-	for(int bc=0;bc<N;bc+=3){
+for(int br=0;br<N;br+=n){                   //box check
+	for(int bc=0;bc<N;bc+=n){
 		vector<int> bv;
 		for(int i=0;i<n;i++){
 		for(int j=0;j<n;j++){
